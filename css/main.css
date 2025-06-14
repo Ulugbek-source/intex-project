@@ -1,0 +1,71 @@
+@font-face {
+	font-display: swap;
+	font-family: 'League Spartan';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/league-spartan-v11-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'League Spartan';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/league-spartan-v11-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'League Spartan';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/league-spartan-v11-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'League Spartan';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/league-spartan-v11-latin-700.woff2') format('woff2');
+}
+html,
+body {
+	scroll-behavior: smooth;
+}
+.containers {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.hero__section {
+	position: relative;
+	height: 870px;
+}
+.hero {
+	z-index: -1;
+	position: absolute;
+	width: 1351px;
+	height: 870px;
+	background-image: url(../images/hero-bg-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body {
+	font-family: 'League Spartan', sans-serif;
+}
+.pool-card {
+	box-shadow: 0px 5px 10px 0px #00000040;
+}
+.login-body {
+	background-image: url('../images/login-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.username-input {
+	box-shadow: 0px 0px 7px 0px #00000040;
+}
